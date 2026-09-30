@@ -8,3 +8,6 @@ Materia Herramientas de Big Data
    ## Mi objetivo
 
    Quiero organizar mis trabajos de Big Data.
+ ## Mi primer avance
+
+   Hoy creé un repositorio y guardé mi primer commit.
