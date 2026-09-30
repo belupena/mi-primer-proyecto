@@ -1,2 +1,10 @@
 # mi-primer-proyecto
 Materia Herramientas de Big Data
+
+   # Mi primer proyecto
+
+   Soy Belén y estoy aprendiendo a usar GitHub.
+
+   ## Mi objetivo
+
+   Quiero organizar mis trabajos de Big Data.
