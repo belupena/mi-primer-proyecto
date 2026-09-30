@@ -1,6 +1,7 @@
 # Práctica 1 — Ingesta y capa Bronze
 
 **Nombre:** María Belén Peña
+
 **student_id:** belu_pena
 
 ## Tres observaciones sobre CSV/JSON, Parquet y Delta
