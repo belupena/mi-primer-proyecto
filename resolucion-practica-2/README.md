@@ -74,8 +74,10 @@ SELECT source_batch_id, COUNT(*) AS filas
 FROM workspace.bigdata_belu_pena.bronze_transactions_incremental
 GROUP BY source_batch_id ORDER BY source_batch_id;
 ```
-
-**<<COMPLETAR: pegar el resultado (filas de batch_002 y batch_003)>>**
+| source_batch_id | filas |
+|---|---:|
+| batch_002 | 204 |
+| batch_003 | 204 |
 
 **2. Aceptadas y rechazadas por lote, reconciliadas con Gold.**
 Consultas: `GROUP BY source_batch_id` sobre `silver_transactions` y `silver_transactions_quarantine` (última celda de `02_build_silver`) y `SELECT * FROM gold_batch_summary` (`03_build_gold`).
