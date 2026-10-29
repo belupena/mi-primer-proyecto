@@ -28,9 +28,8 @@ Los notebooks se subieron con sus salidas, como evidencia de la ejecución. Los 
 - **Fuente:** *Amazon Delivery Dataset*, publicado en Kaggle (archivo `amazon_delivery.csv`). Link: [https://www.kaggle.com/datasets/sujalsuthar/amazon-delivery-dataset/code].
 - **Contenido:** 43.739 entregas realizadas en India entre el 11/02/2022 y el 06/04/2022, con 16 columnas: datos del repartidor (edad y calificación), coordenadas de la tienda y del destino, fecha y hora del pedido y de la recogida, clima, tráfico, vehículo, zona, categoría del producto y el tiempo de entrega en minutos.
 - **Variable objetivo:** `Delivery_Time` (de 10 a 270 minutos, promedio de 125).
-- **Por qué este dataset:** es un único archivo de tamaño manejable, tiene una variable objetivo numérica clara, mezcla variables numéricas y categóricas, y presenta problemas de calidad reales para resolver. Además está relacionado con logística y cadena de suministro.
-- No contiene datos personales: los repartidores no están identificados.
-
+- **Por qué este dataset:** trabajo en el área de Supply Chain, además de, desarrollar software para empresas con logística en sus procesos. Me intereso analizar las variables que influyen en los tiempos de demora de entrega de pedidos.
+  
 ## Qué se hizo
 
 ### 1. Exploración y limpieza (notebook 01)
@@ -141,4 +140,3 @@ Librerías: pandas, NumPy, matplotlib, scikit-learn y MLflow, que vienen instala
 
 - *Amazon Delivery Dataset*, Kaggle.
 - Documentación de [MLflow](https://mlflow.org/docs/latest/index.html) y de [scikit-learn](https://scikit-learn.org/stable/user_guide.html).
-- Material de la cursada *Herramientas de Big Data* (ITBA), práctica 5 (MLOps con MLflow).
