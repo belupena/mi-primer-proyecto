@@ -25,7 +25,7 @@ Los notebooks se subieron con sus salidas, como evidencia de la ejecución. Los 
 
 ## Datos
 
-- **Fuente:** *Amazon Delivery Dataset*, publicado en Kaggle (archivo `amazon_delivery.csv`). Link: [pegar acá el link de la página de Kaggle desde donde se descargó].
+- **Fuente:** *Amazon Delivery Dataset*, publicado en Kaggle (archivo `amazon_delivery.csv`). Link: [https://www.kaggle.com/datasets/sujalsuthar/amazon-delivery-dataset/code].
 - **Contenido:** 43.739 entregas realizadas en India entre el 11/02/2022 y el 06/04/2022, con 16 columnas: datos del repartidor (edad y calificación), coordenadas de la tienda y del destino, fecha y hora del pedido y de la recogida, clima, tráfico, vehículo, zona, categoría del producto y el tiempo de entrega en minutos.
 - **Variable objetivo:** `Delivery_Time` (de 10 a 270 minutos, promedio de 125).
 - **Por qué este dataset:** es un único archivo de tamaño manejable, tiene una variable objetivo numérica clara, mezcla variables numéricas y categóricas, y presenta problemas de calidad reales para resolver. Además está relacionado con logística y cadena de suministro.
