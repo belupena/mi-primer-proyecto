@@ -128,13 +128,12 @@ Clima, tráfico, calificación del repartidor y distancia tienen sentido para el
 
 ## Cómo reproducir
 
-1. Descargar `amazon_delivery.csv` desde Kaggle (ver *Datos*) y descomprimirlo.
-2. En Databricks (Free Edition, compute serverless), crear en el catálogo `workspace` el esquema `tp_final_belu` y, dentro de él, un volumen *managed* llamado `datos`. Subir el CSV al volumen (**Catalog → Upload to this volume**).
+1. Descargar `amazon_delivery.csv` desde Kaggle.
+2. En Databricks subir el CSV al volumen (**Catalog → Upload to this volume**).
 3. Importar a una carpeta del Workspace los dos notebooks de esta carpeta.
-4. Ejecutar `01_exploracion_y_limpieza.ipynb` de arriba hacia abajo. Si la ruta del CSV es distinta de `/Volumes/workspace/tp_final_belu/datos/amazon_delivery.csv`, ajustar la variable `RUTA`. Crea la tabla `workspace.tp_final_belu.delivery_features`. Si da error de que el esquema no existe, ejecutar antes `CREATE SCHEMA IF NOT EXISTS workspace.tp_final_belu`.
-5. Ejecutar `02_experimentos_mlflow.ipynb` de arriba hacia abajo, **una sola vez** (cada ejecución agrega runs nuevos al experimento). Los runs quedan en el experimento `/Users/<usuario>/tp_final_delivery`.
-
-Librerías: pandas, NumPy, matplotlib, scikit-learn y MLflow, que vienen instaladas en el compute serverless. No se incluyen credenciales ni datos sensibles.
+4. Ejecutar '01_exploracion_y_limpieza.ipynb'.
+5. Ejecutar '02_experimentos_mlflow.ipynb'.
+Librerías: pandas, NumPy, matplotlib, scikit-learn y MLflow, que vienen instaladas en el compute serverless.
 
 ## Fuentes y referencias
 
